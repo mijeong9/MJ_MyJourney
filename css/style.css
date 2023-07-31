@@ -272,17 +272,17 @@ nav li a {
 }
 
 a:focus {
-    color: #444;
+    color: #cc99ff;
     text-decoration: none;
 }
 
 a:hover {
-    color: #425BB5;
+    color: #cc99ff;
     text-decoration: none;
 }
 
 a.active {
-    color: #425BB5;
+    color: #cc99ff;
 }
 
 
@@ -374,6 +374,10 @@ a.active {
         line-height: 50px;
     }
 
+    #home {
+        width: 90%;
+    }
+
     #home,
     .disply-table {
         height: 100vh;
@@ -444,8 +448,9 @@ a.active {
 .about-border {
     position: absolute;
     border: 10px solid rgba(153, 107, 187, 0.4);
-    width: 400px;
-    height: 400px;
+    width: 480px;
+    height: 550px;
+    border-radius: 250px 0;
     top: 130px;
     left: 50px;
     z-index: 1
@@ -679,8 +684,8 @@ a.active {
 
 .skill-box>.skills-circle>ul>li>span.bar-circle-cover {
     display: block;
-    width: 95%;
-    height: 95%;
+    width: 80%;
+    height: 80%;
     /*bar 굵기 두껍게 하고싶으면 여기 width랑 height랑 %줄이면됨*/
     border-radius: 50%;
     background-color: #fff;
@@ -1123,6 +1128,7 @@ fieldset {
     border-radius: 30px;
     color: #23527c;
     box-sizing: border-box;
+    margin-top: 10px;
 }
 
 .project_btn:hover {
@@ -1132,10 +1138,10 @@ fieldset {
 
 
 .project_btn_box {
-    display: flex;
     justify-content: space-between;
     text-align: left;
     padding-top: 10px;
+
 }
 
 .clear {
