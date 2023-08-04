@@ -272,17 +272,17 @@ nav li a {
 }
 
 a:focus {
-    color: #cc99ff;
+    color: #444;
     text-decoration: none;
 }
 
 a:hover {
-    color: #cc99ff;
+    color: #425BB5;
     text-decoration: none;
 }
 
 a.active {
-    color: #cc99ff;
+    color: #425BB5;
 }
 
 
@@ -374,10 +374,6 @@ a.active {
         line-height: 50px;
     }
 
-    #home {
-        width: 90%;
-    }
-
     #home,
     .disply-table {
         height: 100vh;
@@ -448,9 +444,9 @@ a.active {
 .about-border {
     position: absolute;
     border: 10px solid rgba(153, 107, 187, 0.4);
-    width: 480px;
-    height: 550px;
-    border-radius: 250px 0;
+    width: 400px;
+    height: 500px;
+    border-radius: 180px 0;
     top: 130px;
     left: 50px;
     z-index: 1
@@ -1128,7 +1124,6 @@ fieldset {
     border-radius: 30px;
     color: #23527c;
     box-sizing: border-box;
-    margin-top: 10px;
 }
 
 .project_btn:hover {
@@ -1138,10 +1133,10 @@ fieldset {
 
 
 .project_btn_box {
+    display: flex;
     justify-content: space-between;
     text-align: left;
     padding-top: 10px;
-
 }
 
 .clear {
