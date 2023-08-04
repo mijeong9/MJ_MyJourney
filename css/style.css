@@ -288,25 +288,13 @@ a.active {
 
 /* home section
 ==================================================*/
-
-#home {
-    background: url(../img/bg.gif);
-    background-size: cover;
-    height: 100vh;
-
+#main_banner img {
+    width: 100%;
 }
+
 
 @media only screen and (min-width:1200px) {
 
-
-    #home .container h2 {
-        width: 500px;
-
-        font-size: 90px;
-        color: #425BB5;
-        margin: 50px 0 0 150px;
-        font-family: 'Lato', sans-serif;
-    }
 
     .table-cell {
         display: table-cell;
@@ -374,7 +362,7 @@ a.active {
         line-height: 50px;
     }
 
-    #home,
+
     .disply-table {
         height: 100vh;
     }
@@ -1036,7 +1024,7 @@ fieldset {
         line-height: 50px;
     }
 
-    #home,
+    ,
     .disply-table {
         height: 100vh;
     }
@@ -1093,7 +1081,7 @@ fieldset {
     }
 
     .item_info {
-        padding-top: 30px;
+        padding-top: 10px;
     }
 
 }
@@ -1114,7 +1102,7 @@ fieldset {
 }
 
 .item_info {
-    padding-top: 50px;
+    padding-top: 10px;
 }
 
 .project_btn {
@@ -1124,6 +1112,7 @@ fieldset {
     border-radius: 30px;
     color: #23527c;
     box-sizing: border-box;
+    margin-right: 20px;
 }
 
 .project_btn:hover {
@@ -1134,19 +1123,29 @@ fieldset {
 
 .project_btn_box {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
     text-align: left;
     padding-top: 10px;
+
+
+}
+
+.project_btn_box a {
+    margin-top: 10px;
 }
 
 .clear {
     clear: both;
 }
 
-.portfolio_item {
-    height: 230px;
-}
+
 
 .portfolio_bg {
     background: url(../img/portfolio/01.jpg);
+}
+
+@media (max-width: 780px) {
+    .timeline-event {
+        width: 100%;
+    }
 }
